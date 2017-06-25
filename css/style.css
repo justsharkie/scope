@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* FONTS */
+@font-face {
+    font-family: "RageItalic";
+    src: url("../fonts/rageitalic.ttf");
+}
+@font-face {
+    font-family: "AdobeArabic";
+    src: url("../fonts/adobearabic.otf");
+}
+
+/* BANNER STYLES */
+.navigation {
+    background-color: rgba(0,0,0,0.1);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-family: 'RageItalic', cursive;
+    font-size: 40px;
+}
+.home {
+    float: left;
+    margin-left: 20px;
+}
+.link {
+    float: right;
+    margin-right: 40px;
+}
+.heroImg {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    z-index: 10;
+}
+.imgCap {
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    color: white;
+    z-index: 100;
+    margin-top: 40vh;
+}
+.imgCap h1 {
+    font-family: 'RageItalic', cursive;
+    opacity: 1.0;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.imgCap h3 {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+/* WORD/DEFINITION SECTION */
+.words {
+    text-align: center;
+    color: #000;
+    position: absolute;
+    z-index: 10;
+    margin-top: 725px;
+    margin-bottom: 50px;
+}
+.words div {
+    float: left;
+    width: 25%;
+    margin-left: 6%;
+}
+.words div h1 {
+    font-family: 'RageItalic', cursive;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.words div p {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+}
+
+/* CONTRACTING SECTION */
+.cameraImg {
+    margin-top: 1000px;
+    width: 60%;
+    height: 450px;
+    float: left;
+    margin-bottom: 50px;
+}
+.contracting {
+    margin-top: 1000px;
+    float: right;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    width: 40%;
+    height: 450px;
+}
+.contracting h1 {
+    font-family: 'RageItalic', cursive;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.contracting p {
+    font-family: 'AdobeArabic', serif;
+    font-size: 35px;
+}
+
+/* PRODUCTS */
+.products {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.products h1 {
+    font-family: 'RageItalic', cursive;
+    font-size: 60px;
+}
+.products p {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.photobook {
+    width: 25%;
+    float: left;
+    margin-left: 8%;
+}
+.flower {
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 15px;
+}
+.turtle {
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+}
+.photobookText {
+    clear: both;
+    float: left;
+    width: 25%;
+    margin-left: 8%;
+}
+.photobookText h2 {
+    font-family: 'RageItalic', cursive;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.photobookText h3 {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+}
+.buyBtn {
+    border-radius: 7px;
+    width: 100px;
+    height: 45px;
+    background-color: #000;
+    color: white;
+    border: 2px solid #000;
+    font-family: 'RageItalic', cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.flowersText {
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+}
+.flowersText h2 {
+    font-family: 'RageItalic', cursive;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.flowersText h3 {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+}
+.turtleText {
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+}
+.turtleText h2 {
+    font-family: 'RageItalic', cursive;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.turtleText h3 {
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+footer h1 {
+    font-family: 'RageItalic', cursive;
+    color: white;
+    font-size: 70px;
+    padding-top: 65px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'AdobeArabic', serif;
+    font-size: 30px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
