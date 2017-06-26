@@ -95,6 +95,9 @@ table {
     z-index: 100;
     margin-top: 40vh;
 }
+.imgCapProducts {
+    height: 120px !important;
+}
 .imgCap h1 {
     font-family: 'RageItalic', cursive;
     opacity: 1.0;
